@@ -55,7 +55,7 @@
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url(https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/css/grabbing.png) 8 8, move;
+    cursor:url(/wp-content/themes/businessup/css/grabbing.png) 8 8, move;
 }
 
 /* fix */

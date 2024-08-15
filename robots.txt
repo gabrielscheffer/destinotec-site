@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Sitemap: https://gabrielscheffer.github.io/destinotec-site/wp-sitemap.xml

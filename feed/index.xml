@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Capão da Canoa | DestinoTec</title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Portal de Serviços de tecnologia em Capão da Canoa/RS</description>
+	<lastBuildDate>Mon, 02 Sep 2019 16:06:35 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>Inauguramos Nossa Página Oficial</title>
+		<link>/inauguracao-da-pagina-oficial/</link>
+		
+		<dc:creator><![CDATA[Equipe Destino Tecnologia]]></dc:creator>
+		<pubDate>Mon, 19 Aug 2019 14:33:56 +0000</pubDate>
+				<category><![CDATA[Notícias]]></category>
+		<guid isPermaLink="false">/?p=290</guid>
+
+					<description><![CDATA[É com grande satisfação que inauguramos nossa página oficial. Trazendo mais serviços para a comunidade e nos colocando no mapa. Agradecemos a todos clientes por este dia. Fique ligado nas novidades!]]></description>
+										<content:encoded><![CDATA[<p><img fetchpriority="high" decoding="async" class="alignnone" src="/wp-content/uploads/opening-768x432.jpg" alt="" width="640" height="360"><br />
+É com grande satisfação que inauguramos nossa página oficial.</p>
+<p>Trazendo mais serviços para a comunidade e nos colocando no mapa.</p>
+<p>Agradecemos a todos clientes por este dia.</p>
+<p>Fique ligado nas novidades!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
