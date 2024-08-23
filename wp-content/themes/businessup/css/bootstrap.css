@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v3.3.5 (https://getbootstrap.com)
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -263,8 +263,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.eot');
-  src: url('https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('https://www.destinotec.com.br/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.eot');
+  src: url('https://www.destinotec.com.br/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('https://www.destinotec.com.br/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('https://www.destinotec.com.br/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://www.destinotec.com.br/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://www.destinotec.com.br/wp-content/themes/businessup/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;

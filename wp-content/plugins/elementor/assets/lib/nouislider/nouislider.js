@@ -96,7 +96,7 @@
         return pieces.length > 1 ? pieces[1].length : 0;
     }
 
-    // https://youmightnotneedjquery.com/#add_class
+    // http://youmightnotneedjquery.com/#add_class
     function addClass(el, className) {
         if (el.classList) {
             el.classList.add(className);
@@ -105,7 +105,7 @@
         }
     }
 
-    // https://youmightnotneedjquery.com/#remove_class
+    // http://youmightnotneedjquery.com/#remove_class
     function removeClass(el, className) {
         if (el.classList) {
             el.classList.remove(className);
@@ -1692,7 +1692,7 @@
                 // which is scroll blocking. The selectstart event is supported by FireFox starting from version 52,
                 // meaning the only holdout is iOS Safari. This doesn't matter: text selection isn't triggered there.
                 // The 'cursor' flag is false.
-                // See: https://caniuse.com/#search=selectstart
+                // See: http://caniuse.com/#search=selectstart
                 scope_Body.addEventListener("selectstart", preventDefault, false);
             }
 

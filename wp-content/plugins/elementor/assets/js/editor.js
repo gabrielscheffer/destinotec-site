@@ -41179,20 +41179,20 @@ presetsFactory = {
   generateContainerPreset: function generateContainerPreset(presetId) {
     var text = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
     var presets = {
-      '33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"30.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"60.5\" width=\"29\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
-      '50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
-      'c100-c50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
-      '50-50-50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"0.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
-      '33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"59\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '25-25-25-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '25-50-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"44\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '50-50-100': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"89\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '33-33-33-33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '33-33-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '66-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"59\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      c100: "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Column', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\" />\n\t\t\t\t\t<path d=\"M43.956 24.644L42 22.748C41.848 22.596 41.672 22.52 41.472 22.52C41.28 22.52 41.108 22.596 40.956 22.748C40.804 22.9 40.728 23.076 40.728 23.276C40.728 23.476 40.804 23.652 40.956 23.804L44.304 27.056C44.456 27.208 44.628 27.284 44.82 27.284C45.02 27.284 45.196 27.208 45.348 27.056L48.504 23.852C48.656 23.7 48.732 23.524 48.732 23.324C48.732 23.124 48.656 22.948 48.504 22.796C48.352 22.644 48.176 22.568 47.976 22.568C47.776 22.568 47.6 22.644 47.448 22.796L45.456 24.848L45.504 17.048C45.504 16.848 45.428 16.676 45.276 16.532C45.124 16.38 44.948 16.304 44.748 16.304C44.548 16.304 44.372 16.38 44.22 16.532C44.076 16.676 44.004 16.848 44.004 17.048L43.956 24.644Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
-      r100: "\n\t\t\t\t<svg class=\"exclude-rtl-scale\" viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Row', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\"/>\n\t\t\t\t\t<path d=\"M47.856 23.352L45.948 25.296C45.796 25.448 45.72 25.624 45.72 25.824C45.72 26.024 45.796 26.2 45.948 26.352C46.1 26.504 46.276 26.58 46.476 26.58C46.676 26.58 46.852 26.504 47.004 26.352L50.256 23.004C50.408 22.852 50.484 22.676 50.484 22.476C50.484 22.276 50.408 22.1 50.256 21.948L47.052 18.804C46.9 18.652 46.724 18.576 46.524 18.576C46.324 18.576 46.148 18.652 45.996 18.804C45.844 18.956 45.768 19.132 45.768 19.332C45.768 19.524 45.844 19.696 45.996 19.848L48.048 21.852L40.248 21.804C40.048 21.804 39.872 21.88 39.72 22.032C39.576 22.176 39.504 22.348 39.504 22.548C39.504 22.748 39.576 22.924 39.72 23.076C39.872 23.228 40.048 23.304 40.248 23.304L47.856 23.352Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
-      default: "\n\t\t\t\t<div style=\"--text:'".concat(text, "'\" class=\"e-preset--container\">\n\t\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t\t<rect width=\"89\" height=\"44\" transform=\"translate(0.5)\" />\n\t\t\t\t\t\t<rect x=\"3\" y=\"2.5\" width=\"84\" height=\"39\" rx=\"2.5\" stroke=\"#FCFCFC\" stroke-linejoin=\"round\" stroke-dasharray=\"3 2\"/>\n\t\t\t\t\t</svg>\n\t\t\t\t</div>\n\t\t\t")
+      '33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"30.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"60.5\" width=\"29\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
+      '50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
+      'c100-c50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
+      '50-50-50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"0.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
+      '33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"59\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '25-25-25-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '25-50-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"44\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '50-50-100': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"89\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '33-33-33-33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '33-33-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '66-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"59\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      c100: "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Column', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\" />\n\t\t\t\t\t<path d=\"M43.956 24.644L42 22.748C41.848 22.596 41.672 22.52 41.472 22.52C41.28 22.52 41.108 22.596 40.956 22.748C40.804 22.9 40.728 23.076 40.728 23.276C40.728 23.476 40.804 23.652 40.956 23.804L44.304 27.056C44.456 27.208 44.628 27.284 44.82 27.284C45.02 27.284 45.196 27.208 45.348 27.056L48.504 23.852C48.656 23.7 48.732 23.524 48.732 23.324C48.732 23.124 48.656 22.948 48.504 22.796C48.352 22.644 48.176 22.568 47.976 22.568C47.776 22.568 47.6 22.644 47.448 22.796L45.456 24.848L45.504 17.048C45.504 16.848 45.428 16.676 45.276 16.532C45.124 16.38 44.948 16.304 44.748 16.304C44.548 16.304 44.372 16.38 44.22 16.532C44.076 16.676 44.004 16.848 44.004 17.048L43.956 24.644Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
+      r100: "\n\t\t\t\t<svg class=\"exclude-rtl-scale\" viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Row', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\"/>\n\t\t\t\t\t<path d=\"M47.856 23.352L45.948 25.296C45.796 25.448 45.72 25.624 45.72 25.824C45.72 26.024 45.796 26.2 45.948 26.352C46.1 26.504 46.276 26.58 46.476 26.58C46.676 26.58 46.852 26.504 47.004 26.352L50.256 23.004C50.408 22.852 50.484 22.676 50.484 22.476C50.484 22.276 50.408 22.1 50.256 21.948L47.052 18.804C46.9 18.652 46.724 18.576 46.524 18.576C46.324 18.576 46.148 18.652 45.996 18.804C45.844 18.956 45.768 19.132 45.768 19.332C45.768 19.524 45.844 19.696 45.996 19.848L48.048 21.852L40.248 21.804C40.048 21.804 39.872 21.88 39.72 22.032C39.576 22.176 39.504 22.348 39.504 22.548C39.504 22.748 39.576 22.924 39.72 23.076C39.872 23.228 40.048 23.304 40.248 23.304L47.856 23.352Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
+      default: "\n\t\t\t\t<div style=\"--text:'".concat(text, "'\" class=\"e-preset--container\">\n\t\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t<rect width=\"89\" height=\"44\" transform=\"translate(0.5)\" />\n\t\t\t\t\t\t<rect x=\"3\" y=\"2.5\" width=\"84\" height=\"39\" rx=\"2.5\" stroke=\"#FCFCFC\" stroke-linejoin=\"round\" stroke-dasharray=\"3 2\"/>\n\t\t\t\t\t</svg>\n\t\t\t\t</div>\n\t\t\t")
     };
     return presets[presetId] || presets.default;
   },
@@ -41201,12 +41201,12 @@ presetsFactory = {
   },
   generateContainerGridPreset: function generateContainerGridPreset(preset) {
     var presets = {
-      '1-2': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"0.941406\" y=\"1\" width=\"90\" height=\"44.5\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M45.9414 1.12402V45.3768\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
-      '2-1': "\n\t\t\t\t<svg width=\"92\" height=\"47\" viewBox=\"0 0 92 47\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"91.2227\" y=\"1.35059\" width=\"44.5\" height=\"90\" transform=\"rotate(90 91.2227 1.35059)\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M91.0957 23.6006L1.34961 23.6006\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '1-3': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"0.941895\" y=\"0.944336\" width=\"90\" height=\"44.5\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M30.9419 1.19824V45.4443\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M60.9419 1.19824V45.4443\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
-      '3-1': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"90.9419\" y=\"0.944336\" width=\"44.5\" height=\"90\" transform=\"rotate(90 90.9419 0.944336)\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M90.6155 15.5654L1.26713 15.5654\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M90.6155 30.1875L1.26713 30.1875\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
-      '2-2': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"0.941895\" y=\"0.944336\" width=\"90\" height=\"44.5\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M45.9419 1.19727V45.4443\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M90.9419 23.3213L0.941896 23.3213\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
-      '2-3': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect opacity=\"0.8\" x=\"90.9419\" y=\"0.944336\" width=\"44.5\" height=\"90\" transform=\"rotate(90 90.9419 0.944336)\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M0.941895 22.3711L90.9419 22.3711\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M60.9419 45.4443L60.9419 1.56836\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M30.9419 45.4443L30.9419 1.56836\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t</svg>\n\t\t\t"
+      '1-2': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"0.941406\" y=\"1\" width=\"90\" height=\"44.5\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M45.9414 1.12402V45.3768\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
+      '2-1': "\n\t\t\t\t<svg width=\"92\" height=\"47\" viewBox=\"0 0 92 47\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"91.2227\" y=\"1.35059\" width=\"44.5\" height=\"90\" transform=\"rotate(90 91.2227 1.35059)\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M91.0957 23.6006L1.34961 23.6006\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '1-3': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"0.941895\" y=\"0.944336\" width=\"90\" height=\"44.5\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M30.9419 1.19824V45.4443\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M60.9419 1.19824V45.4443\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
+      '3-1': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"90.9419\" y=\"0.944336\" width=\"44.5\" height=\"90\" transform=\"rotate(90 90.9419 0.944336)\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M90.6155 15.5654L1.26713 15.5654\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M90.6155 30.1875L1.26713 30.1875\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
+      '2-2': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<g opacity=\"0.8\">\n\t\t\t\t\t\t<rect x=\"0.941895\" y=\"0.944336\" width=\"90\" height=\"44.5\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M45.9419 1.19727V45.4443\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t\t<path d=\"M90.9419 23.3213L0.941896 23.3213\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t</g>\n\t\t\t\t</svg>\n\t\t\t",
+      '2-3': "\n\t\t\t\t<svg width=\"92\" height=\"46\" viewBox=\"0 0 92 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect opacity=\"0.8\" x=\"90.9419\" y=\"0.944336\" width=\"44.5\" height=\"90\" transform=\"rotate(90 90.9419 0.944336)\" fill=\"white\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M0.941895 22.3711L90.9419 22.3711\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M60.9419 45.4443L60.9419 1.56836\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t\t<path d=\"M30.9419 45.4443L30.9419 1.56836\" stroke=\"#515962\" stroke-dasharray=\"3 3\"/>\n\t\t\t\t</svg>\n\t\t\t"
     };
     return presets[preset];
   },
@@ -43705,7 +43705,7 @@ var EventManager = function EventManager() {
 
   /**
    * Use an insert sort for keeping our hooks organized based on priority. This function is ridiculously faster
-   * than bubble sort, etc: https://jsperf.com/javascript-sort
+   * than bubble sort, etc: http://jsperf.com/javascript-sort
    *
    * @param {Array<*>} hooks The custom array containing all of the appropriate hooks to perform an insert sort on.
    * @private
@@ -43741,7 +43741,7 @@ var EventManager = function EventManager() {
       context: context
     };
 
-    // Utilize 'prop itself' : https://jsperf.com/hasownproperty-vs-in-vs-undefined/19
+    // Utilize 'prop itself' : http://jsperf.com/hasownproperty-vs-in-vs-undefined/19
     var hooks = STORAGE[type][hook];
     if (hooks) {
       // TEMP FIX BUG
@@ -55221,7 +55221,7 @@ exports["default"] = _default;
 
     // As per issue #47, the web-components registry is inherited by a
     // new document created via createHTMLDocument. As per the spec
-    // (https://w3c.github.io/webcomponents/spec/custom/#creating-and-passing-registries)
+    // (http://w3c.github.io/webcomponents/spec/custom/#creating-and-passing-registries)
     // a new empty registry is used when creating a template contents owner
     // document, so we use that as our parent document to ensure nothing
     // is inherited.
@@ -55392,9 +55392,9 @@ exports["default"] = _default;
     /* Attributes safe for values like "javascript:" */
     let URI_SAFE_ATTRIBUTES = null;
     const DEFAULT_URI_SAFE_ATTRIBUTES = addToSet({}, ['alt', 'class', 'for', 'id', 'label', 'name', 'pattern', 'placeholder', 'role', 'summary', 'title', 'value', 'style', 'xmlns']);
-    const MATHML_NAMESPACE = 'https://www.w3.org/1998/Math/MathML';
-    const SVG_NAMESPACE = 'https://www.w3.org/2000/svg';
-    const HTML_NAMESPACE = 'https://www.w3.org/1999/xhtml';
+    const MATHML_NAMESPACE = 'http://www.w3.org/1998/Math/MathML';
+    const SVG_NAMESPACE = 'http://www.w3.org/2000/svg';
+    const HTML_NAMESPACE = 'http://www.w3.org/1999/xhtml';
     /* Document namespace */
     let NAMESPACE = HTML_NAMESPACE;
     let IS_EMPTY_INPUT = false;
@@ -55768,7 +55768,7 @@ exports["default"] = _default;
       }
       if (PARSER_MEDIA_TYPE === 'application/xhtml+xml' && NAMESPACE === HTML_NAMESPACE) {
         // Root of XHTML doc must contain xmlns declaration (see https://www.w3.org/TR/xhtml1/normative.html#strict)
-        dirty = '<html xmlns="https://www.w3.org/1999/xhtml"><head></head><body>' + dirty + '</body></html>';
+        dirty = '<html xmlns="http://www.w3.org/1999/xhtml"><head></head><body>' + dirty + '</body></html>';
       }
       const dirtyPayload = trustedTypesPolicy ? trustedTypesPolicy.createHTML(dirty) : dirty;
       /*
@@ -55964,7 +55964,7 @@ exports["default"] = _default;
 
       /* Allow valid data-* attributes: At least one character after "-"
           (https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes)
-          XML-compatible (https://html.spec.whatwg.org/multipage/infrastructure.html#xml-compatible and https://www.w3.org/TR/xml/#d0e804)
+          XML-compatible (https://html.spec.whatwg.org/multipage/infrastructure.html#xml-compatible and http://www.w3.org/TR/xml/#d0e804)
           We don't need to check the value; it's always URI safe. */
       if (ALLOW_DATA_ATTR && !FORBID_ATTR[lcName] && regExpTest(DATA_ATTR, lcName)) ; else if (ALLOW_ARIA_ATTR && regExpTest(ARIA_ATTR, lcName)) ; else if (!ALLOWED_ATTR[lcName] || FORBID_ATTR[lcName]) {
         if (
@@ -56767,7 +56767,7 @@ _.isArray = nativeIsArray || function(obj) {
     return toString.call(obj) === '[object Array]';
 };
 
-// from a comment on https://dbj.org/dbj/?p=286
+// from a comment on http://dbj.org/dbj/?p=286
 // fails on only one very rare and deliberate custom object:
 // var bomb = { toString : undefined, valueOf: function(o) { return "function BOMBA!"; }};
 _.isFunction = function(f) {
@@ -57720,7 +57720,7 @@ _.register_event = (function() {
     // with input from Tino Zijdel - crisp@xs4all.nl
     // with input from Carl Sverre - mail@carlsverre.com
     // with input from Mixpanel
-    // https://dean.edwards.name/weblog/2005/10/add-event/
+    // http://dean.edwards.name/weblog/2005/10/add-event/
     // https://gist.github.com/1930440
 
     /**
@@ -57809,7 +57809,7 @@ _.dom_query = (function() {
     contained inside the 'div' element which has id="main"
 
     New in version 0.4: Support for CSS2 and CSS3 attribute selectors:
-    See https://www.w3.org/TR/css3-selectors/#attribute-selectors
+    See http://www.w3.org/TR/css3-selectors/#attribute-selectors
 
     Version 0.4 - Simon Willison, March 25th 2003
     -- Works in Phoenix 0.5, Mozilla 1.3, Opera 7, Internet Explorer 6, Internet Explorer 5 on Windows
@@ -58111,7 +58111,7 @@ _.info = {
     /**
      * This function detects which browser version is running this script,
      * parsing major and minor version (e.g., 42.1). User agent strings from:
-     * https://www.useragentstring.com/pages/useragentstring.php
+     * http://www.useragentstring.com/pages/useragentstring.php
      */
     browserVersion: function(userAgent, vendor, opera) {
         var browser = _.info.browser(userAgent, vendor, opera);
@@ -58452,7 +58452,7 @@ var logger$2 = console_with_prefix('lock');
  * window/tab at a time will be able to access shared resources.
  *
  * Based on the Alur and Taubenfeld fast lock
- * (https://www.cs.rochester.edu/research/synchronization/pseudocode/fastlock.html)
+ * (http://www.cs.rochester.edu/research/synchronization/pseudocode/fastlock.html)
  * with an added timeout to ensure there will be eventual progress in the event
  * that a window is closed in the middle of the callback.
  *
@@ -60677,10 +60677,10 @@ MixpanelPersistence.prototype.remove_event_timer = function(event_name) {
  * Mixpanel JS Library
  *
  * Copyright 2012, Mixpanel, Inc. All Rights Reserved
- * https://mixpanel.com/
+ * http://mixpanel.com/
  *
  * Includes portions of Underscore.js
- * https://documentcloud.github.com/underscore/
+ * http://documentcloud.github.com/underscore/
  * (c) 2011 Jeremy Ashkenas, DocumentCloud Inc.
  * Released under the MIT License.
  */
@@ -60717,7 +60717,7 @@ var NOOP_FUNC = function() {};
 /*
  * Dynamic... constants? Is that an oxymoron?
  */
-// https://hacks.mozilla.org/2009/07/cross-site-xmlhttprequest-with-cors/
+// http://hacks.mozilla.org/2009/07/cross-site-xmlhttprequest-with-cors/
 // https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest#withCredentials
 var USE_XHR = (win.XMLHttpRequest && 'withCredentials' in new XMLHttpRequest());
 
@@ -61230,7 +61230,7 @@ MixpanelLib.prototype._send_request = function(url, data, options, callback) {
             // Verbose output (from verbose mode, or an error in test mode) is a json blob,
             // which by itself is not valid javascript. Without a callback, this verbose output will
             // cause an error when returned via jsonp, so we force a no-op callback param.
-            // See the ECMA script spec: https://www.ecma-international.org/ecma-262/5.1/#sec-12.4
+            // See the ECMA script spec: http://www.ecma-international.org/ecma-262/5.1/#sec-12.4
             data['callback'] = '(function(){})';
         }
     }
@@ -63313,7 +63313,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at https://fb.me/use-check-prop-types'
+            'Read more at http://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -63759,7 +63759,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/prop-types/node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // https://fb.me/prop-types-in-prod
+  // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}

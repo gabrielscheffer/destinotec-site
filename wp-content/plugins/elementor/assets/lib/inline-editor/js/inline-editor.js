@@ -297,7 +297,7 @@
 
 		urlInput.className = 'pen-url-input';
 		urlInput.type = 'url';
-		urlInput.placeholder = 'https://';
+		urlInput.placeholder = 'http://';
 
 		newWindowLabel.className = 'pen-icon pen-input-label';
 
@@ -373,7 +373,7 @@
 				inputValue = input.value
 					.replace(strReg.whiteSpace, '')
 					.replace(strReg.mailTo, 'mailto:$1')
-					.replace(strReg.http, 'https://$1');
+					.replace(strReg.http, 'http://$1');
 			} else {
 				action = 'unlink';
 			}
@@ -787,7 +787,7 @@
 			count++;
 			if (url.length > autoLinkReg.maxLength) displayUrl = url.slice(0, autoLinkReg.maxLength) + '...';
 			// Add http prefix if necessary
-			if (!autoLinkReg.prefix.test(realUrl)) realUrl = 'https://' + realUrl;
+			if (!autoLinkReg.prefix.test(realUrl)) realUrl = 'http://' + realUrl;
 			return '<a href="' + realUrl + '">' + displayUrl + '</a>';
 		});
 		return {links: count, text: str};

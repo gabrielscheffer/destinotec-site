@@ -7,7 +7,7 @@ Description: Businessup WordPress theme ideal for a business or blog website (co
 Version: 2.1.2
 Tags: two-columns, three-columns, left-sidebar, right-sidebar, translation-ready, custom-background, custom-logo, featured-images, footer-widgets, full-width-template, blog, e-commerce, entertainment
 License: GNU General Public License v3 or later
-License URI: https://www.gnu.org/licenses/gpl.html
+License URI: http://www.gnu.org/licenses/gpl.html
 Text Domain: businessup
 */
 /* --------------------------------------
@@ -1504,7 +1504,7 @@ font-weight: 600;
 	3.6.businessup-funfact     
 -----------------------------------------*/
 .businessup-funfact {
-	background: url(https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/images/fun-back.jpg) no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0);
+	background: url(https://www.destinotec.com.br/wp-content/themes/businessup/images/fun-back.jpg) no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0);
 	height: 100%;
 	overflow: hidden;
 	width: 100%;
@@ -1790,7 +1790,7 @@ font-weight: 600;
 	3.10.businessup-callout      
 -----------------------------------------*/
 .businessup-callout {
-	background: url(https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/images/callout-back.jpg) no-repeat fixed 0 0 /cover;
+	background: url(https://www.destinotec.com.br/wp-content/themes/businessup/images/callout-back.jpg) no-repeat fixed 0 0 /cover;
 	height: 100%;
 	overflow: hidden;
 	width: 100%;
@@ -2119,7 +2119,7 @@ font-weight: 600;
 	overflow: hidden;
 	width: 100%;
 	padding: 0;
-	background-image: url(https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/images/calltoaction.jpg);
+	background-image: url(https://www.destinotec.com.br/wp-content/themes/businessup/images/calltoaction.jpg);
 	background-position: fixed;
 	background-size: cover;
 }
@@ -2187,7 +2187,7 @@ font-weight: 600;
 =========================================
 -----------------------------------------*/
 .businessup-breadcrumb-section {
-	background: url(https://gabrielscheffer.github.io/destinotec-site/wp-content/themes/businessup/images/breadcrumb-back.jpg) repeat fixed;
+	background: url(https://www.destinotec.com.br/wp-content/themes/businessup/images/breadcrumb-back.jpg) repeat fixed;
 	height: 100%;
 	margin: 0 0 0px;
 	overflow: hidden;

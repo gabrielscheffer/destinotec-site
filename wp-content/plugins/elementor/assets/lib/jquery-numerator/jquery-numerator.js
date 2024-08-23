@@ -3,13 +3,13 @@
  *   https://github.com/garethdn/jquery-numerator
  *
  *   Copyright 2015, Gareth Nolan
- *   https://ie.linkedin.com/in/garethnolan/
+ *   http://ie.linkedin.com/in/garethnolan/
 
  *   Based on jQuery Boilerplate by Zeno Rocha with the help of Addy Osmani
- *   https://jqueryboilerplate.com
+ *   http://jqueryboilerplate.com
  *
  *   Licensed under the MIT license:
- *   https://www.opensource.org/licenses/MIT
+ *   http://www.opensource.org/licenses/MIT
  */
 
 ;(function (factory) {
