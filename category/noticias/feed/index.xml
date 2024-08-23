@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Notícias &#8211; Capão da Canoa | DestinoTec</title>
-	<atom:link href="https://www.destinotec.com.br/category/noticias/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.destinotec.com.br/</link>
+	<atom:link href="https://destinotec.com.br/category/noticias/feed/" rel="self" type="application/rss+xml" />
+	<link>https://destinotec.com.br/</link>
 	<description>Portal de Serviços de tecnologia em Capão da Canoa/RS</description>
 	<lastBuildDate>Mon, 02 Sep 2019 16:06:35 +0000</lastBuildDate>
 	<language>pt-BR</language>
@@ -21,15 +21,15 @@
 	
 	<item>
 		<title>Inauguramos Nossa Página Oficial</title>
-		<link>https://www.destinotec.com.br/inauguracao-da-pagina-oficial/</link>
+		<link>https://destinotec.com.br/inauguracao-da-pagina-oficial/</link>
 		
 		<dc:creator><![CDATA[Equipe Destino Tecnologia]]></dc:creator>
 		<pubDate>Mon, 19 Aug 2019 14:33:56 +0000</pubDate>
 				<category><![CDATA[Notícias]]></category>
-		<guid isPermaLink="false">https://www.destinotec.com.br/?p=290</guid>
+		<guid isPermaLink="false">https://destinotec.com.br/?p=290</guid>
 
 					<description><![CDATA[É com grande satisfação que inauguramos nossa página oficial. Trazendo mais serviços para a comunidade e nos colocando no mapa. Agradecemos a todos clientes por este dia. Fique ligado nas novidades!]]></description>
-										<content:encoded><![CDATA[<p><img fetchpriority="high" decoding="async" class="alignnone" src="https://www.destinotec.com.br/wp-content/uploads/opening-768x432.jpg" alt="" width="640" height="360"><br />
+										<content:encoded><![CDATA[<p><img fetchpriority="high" decoding="async" class="alignnone" src="https://destinotec.com.br/wp-content/uploads/opening-768x432.jpg" alt="" width="640" height="360"><br />
 É com grande satisfação que inauguramos nossa página oficial.</p>
 <p>Trazendo mais serviços para a comunidade e nos colocando no mapa.</p>
 <p>Agradecemos a todos clientes por este dia.</p>

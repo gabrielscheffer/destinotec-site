@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comentários sobre Capão da Canoa | DestinoTec	</title>
-	<atom:link href="https://www.destinotec.com.br/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.destinotec.com.br/</link>
+	<atom:link href="https://destinotec.com.br/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://destinotec.com.br/</link>
 	<description>Portal de Serviços de tecnologia em Capão da Canoa/RS</description>
 	<lastBuildDate>Sun, 31 May 2020 22:59:10 +0000</lastBuildDate>
 	<sy:updatePeriod>
