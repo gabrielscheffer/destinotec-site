@@ -629,7 +629,7 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 		var form = this;
 		
 		grecaptcha.ready(function() {
-			grecaptcha.execute("6LdR0aoUAAAAAAlqUsFKyVnVggnZVc5FJdSidGbm", {action: "submit_contact"})
+			grecaptcha.execute("6LdR0aoUAAAAAAlqUsFKyVnVgknZVc5FJdSidGbm", {action: "submit_contact"})
 			.then(function(token) {
 				document.getElementById('captchaResponse').value = token;
 				form.submit();
