@@ -624,10 +624,16 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 </script>
 <script type="text/javascript" src="https://destinotec.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.4" id="elementor-frontend-js"></script>
 <script>
-	grecaptcha.ready(function() {
-		grecaptcha.execute("6LdR0aoUAAAAAAlqUsFKyVnVgknZVc5FJdSidGbm", {action: "homepage"})
-		.then(function(token) {
-			document.getElementById('captchaResponse').value = token;
+	document.querySelector('form[name="contato"]').addEventListener('submit', function(event) {
+		event.preventDefault();
+		var form = this;
+		
+		grecaptcha.ready(function() {
+			grecaptcha.execute("6LdR0aoUAAAAAAlqUsFKyVnVggnZVc5FJdSidGbm", {action: "submit_contact"})
+			.then(function(token) {
+				document.getElementById('captchaResponse').value = token;
+				form.submit();
+			});
 		});
 	});
 </script>
